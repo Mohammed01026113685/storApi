@@ -2,21 +2,6 @@
        text-transform: capitalize;
    }
    
-   #loader {
-       width: 50px;
-       aspect-ratio: 1;
-       --_c: no-repeat linear-gradient(orange 0 0) 50%;
-       background: var(--_c)/100% 50%, var(--_c)/50% 100%;
-       border-radius: 50%;
-       animation: l29 2s infinite linear;
-   }
-   
-   @keyframes l29 {
-       100% {
-           transform: rotate(1turn)
-       }
-   }
-   
    #products-container {
        display: none;
    }
@@ -216,7 +201,6 @@
    
    .accordion-card {
        width: 70%;
-       height: 60px;
        text-align: start;
        font-size: 18px;
        margin-top: 20px;
@@ -225,7 +209,7 @@
        border: .3px solid rgb(255, 221, 0);
        border-radius: 15px;
        overflow: hidden;
-       height: 80px;
+       height: auto;
    }
    
    .accordion-card p {
@@ -245,7 +229,7 @@
        flex-direction: column;
        width: 49%;
        margin: auto;
-       margin-top: 80px;
+       margin-top: 25px;
        border: .3px solid rgb(255, 221, 0);
        border-radius: 15px;
        text-align: center;
@@ -286,6 +270,7 @@
            margin: auto;
            margin-top: 40px;
            width: 70%;
+           height: auto;
        }
    }
    
@@ -301,5 +286,6 @@
            margin: auto;
            margin-top: 40px;
            width: 100%;
+           height: auto;
        }
    }
