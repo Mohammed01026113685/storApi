@@ -193,6 +193,12 @@
        border: none;
    }
    
+   .Prodacts {
+       display: block;
+       text-align: center;
+       padding: 10x;
+   }
+   
    .btoa:hover {
        background-color: #f7df1e;
        color: black;

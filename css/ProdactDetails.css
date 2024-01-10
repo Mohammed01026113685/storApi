@@ -93,7 +93,8 @@
     margin-left: .5rem;
 }
 
-.btn-buy {
+.btn-buy,
+#clear-cart {
     display: flex;
     margin: 1.5rem auto 0 auto;
     padding: 12px 20px;
