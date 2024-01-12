@@ -10,175 +10,182 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body class="container">
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand" href="./index.html">
-            <img src="./img/favicon.png" width="30" height="30" alt="Your Logo"> E comme</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <div id="loader">
+        <div class="dash uno"></div>
+        <div class="dash dos"></div>
+        <div class="dash tres"></div>
+        <div class="dash cuatro"></div>
+    </div>
+    <div class="container" id="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/favicon.png" width="30" height="30" alt="Your Logo"> E comme</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-        <div class="collapse navbar-collapse mnui" id="navbarNav">
-            <ul class="navbar-nav ">
-                <li class="nav-item active ">
-                    <a class="nav-link" href="#Prodacts">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Faq">Faq's</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse mnui" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="#Prodacts">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Faq">Faq's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- / carousel -->
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="im" src="https://f.nooncdn.com/mpcms/EN0003/assets/c90e0928-a675-45d9-8aee-9ec4baeca519.png?format=avif">
+                </div>
+                <div class="carousel-item">
+                    <img class="im" src="https://f.nooncdn.com/mpcms/EN0003/assets/7d4f2063-7150-4772-b9a5-1b87246d0f35.png?format=avif">
+                </div>
+                <div class="carousel-item">
+                    <img class="im" src="https://f.nooncdn.com/mpcms/EN0003/assets/535cdaf0-73b0-4010-9d3b-5ef593f49cb8.gif?format=avif">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
         </div>
-    </nav>
-
-    <!-- / carousel -->
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="im" src="https://f.nooncdn.com/mpcms/EN0003/assets/c90e0928-a675-45d9-8aee-9ec4baeca519.png?format=avif">
-            </div>
-            <div class="carousel-item">
-                <img class="im" src="https://f.nooncdn.com/mpcms/EN0003/assets/7d4f2063-7150-4772-b9a5-1b87246d0f35.png?format=avif">
-            </div>
-            <div class="carousel-item">
-                <img class="im" src="https://f.nooncdn.com/mpcms/EN0003/assets/535cdaf0-73b0-4010-9d3b-5ef593f49cb8.gif?format=avif">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-        </a>
-    </div>
 
 
 
 
-    <!-- container -->
-    <div class="container-2">
-        <div class="hid">
-            <div style="display: block;">
-                <p class="ptnn">Special for you</p>
-                <b style="font-size: 29px;">Here is the new collection to make you <br>look beautiful!</b>
-            </div>
-            <div class="crd">
-                <figure class="featured__item "> <img class="featured__item__image" id="featuredid" src="https://vanilla-js-ecommerce.vercel.app/img/trousers-3.jpg">
-                    <a class="btn btn-outline-warning btn-light btnw " id="b2">Discover Sunglasses</a>
-                </figure>
-                <div>
-
-                    <figure class="featured__item figure"><img class="featured__item__image" src="https://vanilla-js-ecommerce.vercel.app/img/trousers-1.jpg">
-                        <a class="btn btn-light btn-outline-warning btnw " style="padding: 0px;">All<br> Necklaces
-                            </a>
+        <!-- container -->
+        <div class="container-2">
+            <div class="hid">
+                <div style="display: block;">
+                    <p class="ptnn">Special for you</p>
+                    <b style="font-size: 29px;">Here is the new collection to make you <br>look beautiful!</b>
+                </div>
+                <div class="crd">
+                    <figure class="featured__item "> <img class="featured__item__image" id="featuredid" src="https://vanilla-js-ecommerce.vercel.app/img/trousers-3.jpg">
+                        <a class="btn btn-outline-warning btn-light btnw " id="b2">Discover Sunglasses</a>
                     </figure>
-                    <figure class="featured__item "><img class="featured__item__image " src="./img/slider-1.jpeg "><a class="btn btn-light btn-outline-warning btnw " style="padding: 0px;">Discover Trousers</a></figure>
+                    <div>
+
+                        <figure class="featured__item figure"><img class="featured__item__image" src="https://vanilla-js-ecommerce.vercel.app/img/trousers-1.jpg">
+                            <a class="btn btn-light btn-outline-warning btnw " style="padding: 0px;">All<br> Necklaces
+                            </a>
+                        </figure>
+                        <figure class="featured__item "><img class="featured__item__image " src="./img/slider-1.jpeg "><a class="btn btn-light btn-outline-warning btnw " style="padding: 0px;">Discover Trousers</a></figure>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="countdown">
-        <div class="countdown__text-wrapper">
-            <div class="countdown__text">Get <span class="countdown__text--highlighted">50% Off </span>Before It's too Late!<br></div>
-            <div class="countdown__text countdown__text--secondary js-endDate">Offer ends on <time>Thursday, 11 January 2024 9:14</time></div>
-        </div>
-        <div class="box">
-            <div class="smailbox1 smailbox"></div>
-            <div class="smailbox2 smailbox"></div>
-            <div class="smailbox3 smailbox"></div>
-            <div class="smailbox4 smailbox"></div>
-        </div>
-    </div>
-
-    <!-- Prodacts api  -->
-
-    <div id="Prodacts" class="Prodacts">
-        <h1>Products</h1>
-        <div class="Prodactsid">
-            <button onclick="fetchAllProducts()" class="btn btn-outline-warning " type="button">all</button>
-            <button onclick="fetchProducts('jewelery')" id="sunglasses" class="btn btn-outline-warning " type="button">jewelery</button>
-            <button onclick="fetchProducts(`women's clothing`)" id="trousers" class="btn btn-outline-warning " type="button">women's clothing</button>
-            <button onclick="fetchProducts(`men's clothing`)" id="necklace" class="btn btn-outline-warning " type="button">men's clothing</button>
-            <button onclick="fetchProducts(`electronics`)" id="necklace" class="btn btn-outline-warning " type="button">electronics</button>
+        <div id="countdown">
+            <div class="countdown__text-wrapper">
+                <div class="countdown__text">Get <span class="countdown__text--highlighted">50% Off </span>Before It's too Late!<br></div>
+                <div class="countdown__text countdown__text--secondary js-endDate">Offer ends on <time>Thursday, 11 January 2024 9:14</time></div>
+            </div>
+            <div class="box">
+                <div class="smailbox1 smailbox"></div>
+                <div class="smailbox2 smailbox"></div>
+                <div class="smailbox3 smailbox"></div>
+                <div class="smailbox4 smailbox"></div>
+            </div>
         </div>
 
-        <div id="products-container" class="flex-container"></div>
-        <ul id="cart-items"></ul>
-    </div>
+        <!-- Prodacts api  -->
+
+        <div id="Prodacts" class="Prodacts">
+            <h1>Products</h1>
+            <div class="Prodactsid">
+                <button onclick="fetchAllProducts()" class="btn btn-outline-warning " type="button">all</button>
+                <button onclick="fetchProducts('jewelery')" id="sunglasses" class="btn btn-outline-warning " type="button">jewelery</button>
+                <button onclick="fetchProducts(`women's clothing`)" id="trousers" class="btn btn-outline-warning " type="button">women's clothing</button>
+                <button onclick="fetchProducts(`men's clothing`)" id="necklace" class="btn btn-outline-warning " type="button">men's clothing</button>
+                <button onclick="fetchProducts(`electronics`)" id="necklace" class="btn btn-outline-warning " type="button">electronics</button>
+            </div>
+
+            <div id="products-container" class="flex-container"></div>
 
 
-    <!-- FAQ's-->
-    <div id="Faq" style="display: flex; flex-direction: column; width: 100%; justify-content: center;  text-align: center;">
-        <h2>FAQ's</h2>
+            <ul id="cart-items"></ul>
+        </div>
 
-        <div class="accordion " id="accordionExample">
-            <div class="accordion-card">
-                <!-- Button 1 to trigger the first collapse -->
-                <button class="btn " type="button" data-toggle="collapse" data-target="#option1" aria-expanded="false" aria-controls="option1">
+
+        <!-- FAQ's-->
+        <div id="Faq" style="display: flex; flex-direction: column; width: 100%; justify-content: center;  text-align: center;">
+            <h2>FAQ's</h2>
+
+            <div class="accordion " id="accordionExample">
+                <div class="accordion-card">
+                    <!-- Button 1 to trigger the first collapse -->
+                    <button class="btn " type="button" data-toggle="collapse" data-target="#option1" aria-expanded="false" aria-controls="option1">
                     <h4>How much money should I pay for delivery?</h4>
                 </button>
 
-                <!-- Collapsible content for Option 1 -->
-                <div class="collapse " id="option1">
-                    <div class=" card-body">
-                        <p>You don't have to pay for delivery. It's totally free!</p>
+                    <!-- Collapsible content for Option 1 -->
+                    <div class="collapse " id="option1">
+                        <div class=" card-body">
+                            <p>You don't have to pay for delivery. It's totally free!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Button 2 to trigger the second collapse -->
-            <div class="accordion-card">
-                <button class="btn" type="button" data-toggle="collapse" data-target="#option2" aria-expanded="false" aria-controls="option2">
+                <!-- Button 2 to trigger the second collapse -->
+                <div class="accordion-card">
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#option2" aria-expanded="false" aria-controls="option2">
                     <h4>How many days should I wait before reaching you?</h4>
                     </button>
 
-                <!-- Collapsible content for Option 2 -->
-                <div>
-                    <div class="collapse" id="option2">
-                        <div class=" card-body">
-                            <p>It is enough to wait 3-7 days for the delivery</p>
+                    <!-- Collapsible content for Option 2 -->
+                    <div>
+                        <div class="collapse" id="option2">
+                            <div class=" card-body">
+                                <p>It is enough to wait 3-7 days for the delivery</p>
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-card">
-                <!-- Button 3 to trigger the third collapse -->
-                <button class="btn " type="button" data-toggle="collapse" data-target="#option3" aria-expanded="false" aria-controls="option3">
+                <div class="accordion-card">
+                    <!-- Button 3 to trigger the third collapse -->
+                    <button class="btn " type="button" data-toggle="collapse" data-target="#option3" aria-expanded="false" aria-controls="option3">
                     <h4>Do you have refund policy?</h4>  </button>
 
-                <div>
-                    <!-- Collapsible content for Option 3 -->
-                    <div class="collapse" id="option3">
-                        <div class=" card-body">
-                            <p>Yes, we have. </p>
+                    <div>
+                        <!-- Collapsible content for Option 3 -->
+                        <div class="collapse" id="option3">
+                            <div class=" card-body">
+                                <p>Yes, we have. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <h2 style="text-align: center; margin-top: 15px;">Contact Us</h2>
+        <div class="contact" id="contact">
+            <p>Who are we?
+                <br>We love making stuffs. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, exercitationem laborum, eaque aliquid rem delectus facilis eos culpa, accusantium maxime saepe magni voluptatem illum ut dicta quis quam reprehenderit.
+                Maiores. We love making stuffs. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, exercitationem laborum, eaque aliquid rem delectus facilis eos culpa.</p>
+        </div>
+        <footer style=" display: flex;flex-direction: column; justify-content: center; align-items: center; margin-top: 50px;">
+            <img width="40px" height="40px" src="./img/favicon.png" alt="" srcset="">
+            <p> 2024 Copyright · Made with 💕 by hey_fk </p>
+        </footer>
+
     </div>
-
-
-    </div>
-    <h2 style="text-align: center; margin-top: 15px;">Contact Us</h2>
-    <div class="contact" id="contact">
-        <p>Who are we?
-            <br>We love making stuffs. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, exercitationem laborum, eaque aliquid rem delectus facilis eos culpa, accusantium maxime saepe magni voluptatem illum ut dicta quis quam reprehenderit.
-            Maiores. We love making stuffs. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, exercitationem laborum, eaque aliquid rem delectus facilis eos culpa.</p>
-    </div>
-    <footer style=" display: flex;flex-direction: column; justify-content: center; align-items: center; margin-top: 50px;">
-        <img width="40px" height="40px" src="./img/favicon.png" alt="" srcset="">
-        <p> 2024 Copyright · Made with 💕 by hey_fk </p>
-    </footer>
-
-
     <!-- javascript file -->
     <script src="./js/app.js "></script>
     <script src="./js/Dataapi.js"></script>

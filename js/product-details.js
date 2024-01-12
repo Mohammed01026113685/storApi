@@ -255,4 +255,22 @@ function clearCart() {
 let Buy_Now = document.getElementById("Buy_Now");
 Buy_Now = function() {
     window.alert("Your order has been placed successfully");
+    totalCartItems = " ";
+
+    // Save the updated totalCartItems to local storage
+    localStorage.setItem('totalCartItems', totalCartItems.toString());
+
+    // Clear the cart array
+    cart.length = " ";
+
+    // Save the empty cart to local storage
+    saveCartToLocalStorage();
+
+    // Update the cart UI
+    updateCartUI();
+
+    // Update the cart item count
+    updateCartItemCount();
+
+
 }
